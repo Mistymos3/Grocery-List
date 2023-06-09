@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <!-- link for external CSS -->
+    <link rel = "stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- internal or embedded CSS -->
+    <style>
+        header{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+            text-align: center;
+            color: rgba(0, 0, 0, 0.685);
+        }
+    </style>
+    <header>
+        <h1>My Grocery List</h1>
+    </header>
+    <nav>
+        <a href="index.html">Grocery List</a>
+        <a href="pictures.html">Pictures</a>
+    </nav>
+
+    <form id="GroceryList">
+        <label for="grocery-input">Enter Grocery</label>
+        <input type="text" id="grocery-input" required>
+    </form>
+    
+    <div>
+
+        <table border="2" >
+            <tr>
+                <th><h2>Pantry Items</h2></th>
+                <th><h2>Refridgerator Items</h2></th>
+                <th ><h2>Freezer Items</h2></th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Crackers</li>
+                        <li>Nuts</li>
+                            <!-- <ul>
+                                <li>Almonds</li>
+                                <li>Peanuts</li>
+                                <li>Pecans</li>
+                            </ul> -->
+                    </ul>
+                </td>
+                <td>
+                   <ul>
+                        <li>Milk</li>
+                        <li>Cheese</li>
+                        <li>Bacon</li>
+
+                   </ul> 
+                </td>
+                <td>
+                    <ul>
+                        <li>Ice Cream</li>
+                        <li>Popsicles</li>
+                        <li>Ice</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="images/coffee.jpg" alt="coffee"></td>
+                <td><img src="images/cheese.jpg" alt=""></td>
+                <td><img src="images/ice-cubes.jpg" alt="i"></td>
+            </tr>
+        </table>
+
+
+
+
+
+    </div>
+    <!-- inline CSS -->
+    <footer style="text-align: center; background-color: rgb(28, 28, 121);">
+    <p>&copy: My Grocery List.</p>
+    </footer>
+</body>
+</html>
